@@ -1,6 +1,6 @@
 # Example Use case Lock/Unlock Levels
 
-So where all can these concepts be implmented in a game you ask?
+So where all can these concepts be implemented in a game you ask?
 
 ![Where!](https://media.giphy.com/media/xUA7b6G577b74RSS3e/giphy.gif)
 
