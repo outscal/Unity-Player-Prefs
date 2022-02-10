@@ -1,6 +1,14 @@
 # Deleting PlayerPrefs
 
-you can come inside the storage location and delete the values manually if you want to not have the saved values for any reason (for example, When the User wants to delete all saves and start a New Game) otherwise, there are 2 other ways to clear all values: 
+Now that you know these values need to be stored somewhere so that your system knows where the game is saved, you might also be wondering if these can be deleted as well.
+
+![huh!](https://media.giphy.com/media/KGSxFwJJHQPsKzzFba/giphy.gif)
+
+The answer is yes. Anything that is stored, can also be removed from system. So the tricks below can help you delete any of your friends' saved game checkpoints if you want, just to joke around with and watch them getting infuriated.
+
+![dare!](https://media.giphy.com/media/QBMAlst0mMnDKiDvWw/giphy.gif)
+
+You can come inside the storage location and delete the values manually if you want to not have the saved values for any reason (for example, When the User wants to delete all saves and start a New Game) otherwise, there are 2 other ways to clear all values: Y
 
 - Use DeleteAll or DeleteKey functions using the C# script
 - Use Clear All PlayerPrefs option under Edit category:
@@ -28,14 +36,6 @@ Some other ways of using PlayerPrefs are shown below with use cases:
 - Saving Game settings
 - Clearing/removing specific PlayerPref values
 
-Think of some other use cases of PlayerPrefs, then try to implement them in your game.
+Think of some other use cases of PlayerPrefs, then try to implement them in your game. Come on, you can do more!
 
----
-<aside>
-
-> 💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
-</aside>
-
-![discord_png](https://user-images.githubusercontent.com/44625252/152948137-97167a02-bba1-47b9-b33c-fb2ac41f11fc.png)
-
----
+![More!](https://media.giphy.com/media/3oKIPEh5Lk3RGSIFEI/giphy.gif)
