@@ -1,5 +1,9 @@
 # Example Use case Lock/Unlock Levels
 
+So where all can these concepts be implmented in a game you ask?
+
+![Where!](https://media.giphy.com/media/xUA7b6G577b74RSS3e/giphy.gif)
+
 A very important use case of PlayerPrefs is for Locking levels. You can create an enum of different statuses as shown below, based on the requirements of your game:
 
 ![Status_levels](https://user-images.githubusercontent.com/44625252/152965223-e7756f9b-1acc-429b-a276-2a1562a47253.PNG)
@@ -20,12 +24,6 @@ You can always find the values in your local device in places, for example, the 
 
 ![Reg_ed](https://user-images.githubusercontent.com/44625252/152965555-8ef2a77e-4d98-454f-8c03-10d008671446.PNG)
 
----
-<aside>
+Think of some other use cases for using the playerprefs in your game. I can show you more in the next one.
 
-> 💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
-</aside>
-
-![discord_png](https://user-images.githubusercontent.com/44625252/152948137-97167a02-bba1-47b9-b33c-fb2ac41f11fc.png)
-
----
+![Show!](https://media.giphy.com/media/LppEUYz6zqqh19I62F/giphy.gif)
