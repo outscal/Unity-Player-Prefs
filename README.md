@@ -1,5 +1,13 @@
 # Introduction
 
+Hi there fellow clanmate, welcome to this short course on Player Preferences or PlayerPrefs in Unity!
+
+![Hi!](https://media.giphy.com/media/3pZipqyo1sqHDfJGtz/giphy.gif)
+
+Have you ever felt like you have played a lot and the game is still going on, so wouldn't it be great to start from a checkpoint tomorrow, saving your current progress. This is called saving and some devices or consoles also uses memory cards to store certain information, like playstations.
+
+![Intro!](https://media.giphy.com/media/98qNB9zZFJrm7xaqsq/giphy.gif)
+
 In order to save the game progress, Unity provides something called “Player Preferences” or ‘PlayerPrefs’ in short. This is a class that stores Player preferences between game sessions. What this means is, say you exit from the game today and re-open it tomorrow, it should be able to save your previous session and start from where you left off and shouldn’t start from the beginning of the game itself, what we call as ‘SAVING’ in games. PlayerPrefs can store string, float and integer values into the user’s platform registry. The location of saving these values will depend on the type of platform being used as mentioned below.
 
 **Standalone Player storage location**
@@ -36,14 +44,13 @@ On Windows, PlayerPrefs are stored in HKCU\Software\Unity\UnityEditor\ExampleCom
 
 Windows 10 uses the application’s PlayerPrefs names. For example, Unity adds a DeckBase string and converts it into DeckBase_h3232628825. The application ignores the extension. Unity stores PlayerPrefs in a local registry, without encryption. Do not use PlayerPrefs data to store sensitive data.
 There are a lot of different data types that can be stored using this class, of course using Get and Set methods they can be fetched and set respectively. The various data types allowed are:
-Float Int String
+****Float**** 
+****Int**** 
+****String****
 
----
-<aside>
+Move on to the next to get more insights on this topic.
 
-> 💡 🚀 **[Join Discord Server](https://discord.gg/J5zDscnzms) → Get your doubts solved by experts instantly**
-</aside>
+![Go On!](https://media.giphy.com/media/LXl3KHf5t90u3uykMJ/giphy.gif)
 
-![discord_png](https://user-images.githubusercontent.com/44625252/152948137-97167a02-bba1-47b9-b33c-fb2ac41f11fc.png)
 
----
+
