@@ -48,9 +48,16 @@ There are a lot of different data types that can be stored using this class, of 
 ****Int**** 
 ****String****
 
-Move on to the next to get more insights on this topic.
+## Earn Learning points to get more rewards 🎁
 
-![Go On!](https://media.giphy.com/media/LXl3KHf5t90u3uykMJ/giphy.gif)
+As you learn and upskill yourself, you can earn learning points. These points can be redeemed for rewards, as well as in tournaments. Free stuff to learn stuff, crazy right?
+
+**Click on the gif below and follow the instructions** ⏬
+
+[![Click me!](https://media.giphy.com/media/zz1v8vjwQwTja/giphy.gif)](https://academy.outscal.com/welcome/build-in-public/assignments)
+
+
+Move on to the next to get more insights on this topic.
 
 
 
