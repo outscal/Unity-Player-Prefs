@@ -8,6 +8,17 @@ PlayerPrefs are an important part of any game that allows saving checkpoints, es
 
 ![Good Job!](https://media.giphy.com/media/3ohs4xsq0oEhqC4why/giphy.gif)
 
+## Earn Learning points to get more rewards 🎁
+
+As you learn and upskill yourself, you can earn learning points. These points can be redeemed for rewards, as well as in tournaments. Free stuff to learn stuff, crazy right?
+
+**Click on the gif below and follow the instructions** ⏬
+
+[![Click me!](https://media.giphy.com/media/zz1v8vjwQwTja/giphy.gif)](https://academy.outscal.com/welcome/build-in-public/assignments)
+
+You can also click here - [Click Here!](https://academy.outscal.com/welcome/build-in-public/assignments)
+
+
 ## What's next
 
 Try to come up with more use cases of applying these playerprefs in game and actually implement them in your own games.
