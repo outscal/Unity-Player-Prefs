@@ -36,7 +36,17 @@ switch(levelStatus)
 
 Finally, the PlayerPrefs can be set and fetched as required as shown below:
 
-![Prefs_levelValue](https://user-images.githubusercontent.com/44625252/152965502-abd34388-1fab-4c26-8c2d-901656df8eb2.PNG)
+```
+public LevelStatus GetLevelStatus(string level)
+{
+  return (LevelStatus) PlayerPrefs.GetInt(level,0);
+}
+
+public void SetLevelStatus(string level, LevelStatus levelstatus)
+{
+  PlayerPrefs.SetInt(level, (int) levelstatus);
+}
+```
 
 You can always find the values in your local device in places, for example, the below shows the storage location on a Windows PC (in the registry editor): 
 
