@@ -8,7 +8,16 @@ The main three methods in *PlayerPrefs* are “Set”, “Get”, and “Save�
 
 PlayerPrefs can also be combined with JSON to store even more data. Using script, the following could be included in the code so it does the job:
 
-![Json_save](https://user-images.githubusercontent.com/44625252/152967005-32189dda-a90f-4905-b62f-f437cc2836fd.png)
+```
+//use Unity's JsonUtility to save the above data.
+//JsonUtility.ToJson will return a string so we can use it with player prefs
+PlayerPrefs.SetString("SavedPlayer", JsonUtility.ToJson(savedPlayer));
+
+//make sure to save
+PlayerPrefs.Save();
+```
+
+A more detailed information and reference regarding the above can be found here: [JsonUtility](https://bootcamp.uxdesign.cc/unity-feature-101-basic-saving-using-playerprefs-2fc737d1ac7b)
 
 JSON, derived from JavaScript Object Notation Syntax, is a way of encoding data
 When storing data, the data has to be in a certain format, and regardless of where you choose to store it, the text is always one of the legal formats.
