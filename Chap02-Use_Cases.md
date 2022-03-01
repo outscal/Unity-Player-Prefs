@@ -12,9 +12,27 @@ As shown in the example above, every time a level is completed, you have the sta
 
 ![AllLevels](https://user-images.githubusercontent.com/44625252/152965287-d83b8a3f-8911-4919-bd0c-c97681c303b8.PNG)
 
-Then, for each button, the status can be set based on its state, of course, levels such as the lobby (menu screen) and Level 1 (the very first level) needs to be kept at ‘Unlocked’ status from the beginning so that they can be accessed by the user in the Start itself. The below shows an example of a switch case statement that allows the button click function to work only when the level is in ‘Unlocked’ status:
+Then, for each button, the status can be set based on its state, of course, levels such as the lobby (menu screen) and Level 1 (the very first level) needs to be kept at ‘Unlocked’ status from the beginning so that they can be accessed by the user in the Start itself. The below shows an example of a switch case statement that allows the button click sounds to work respectively based on the Locked/Unlocked status:
 
-![Button_locks](https://user-images.githubusercontent.com/44625252/152965450-deae1e6b-f46e-47ca-bfd1-71db73389143.PNG)
+```
+switch(levelStatus)
+{
+  case LevelStatus.Locked:
+    SoundManager.Instance.PlayOnce(UISounds.LockedLevel);
+    Debug.Log("Can't play this level until unlocked")
+    break;
+  
+  case LevelStatus.Unlocked:
+    SoundManager.Instance.PlayOnce(UISounds.ButtonClick);
+    SceneManager.LoadScene(LevelName);
+    break;  
+  
+  case LevelStatus.Completed:
+    SoundManager.Instance.PlayOnce(UISounds.ButtonClick);
+    SceneManager.LoadScene(LevelName);
+    break;   
+}
+```
 
 Finally, the PlayerPrefs can be set and fetched as required as shown below:
 
