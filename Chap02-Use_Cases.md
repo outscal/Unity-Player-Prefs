@@ -53,5 +53,3 @@ You can always find the values in your local device in places, for example, the 
 ![Reg_ed](https://user-images.githubusercontent.com/44625252/152965555-8ef2a77e-4d98-454f-8c03-10d008671446.PNG)
 
 Think of some other use cases for using the playerprefs in your game. I can show you more in the next one.
-
-![Show!](https://media.giphy.com/media/LppEUYz6zqqh19I62F/giphy.gif)
