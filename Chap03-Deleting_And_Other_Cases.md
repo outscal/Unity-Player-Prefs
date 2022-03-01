@@ -4,9 +4,7 @@ Now that you know these values need to be stored somewhere so that your system k
 
 ![huh!](https://media.giphy.com/media/KGSxFwJJHQPsKzzFba/giphy.gif)
 
-The answer is yes. Anything that is stored, can also be removed from system. So the tricks below can help you delete any of your friends' saved game checkpoints if you want, just to joke around with and watch them getting infuriated.
-
-![dare!](https://media.giphy.com/media/QBMAlst0mMnDKiDvWw/giphy.gif)
+The answer is yes. Anything that is stored, can also be removed from system. So the tricks below can help you delete any of your saved game checkpoints if you want to.
 
 You can come inside the storage location and delete the values manually if you want to not have the saved values for any reason (for example, When the User wants to delete all saves and start a New Game) otherwise, there are 2 other ways to clear all values: Y
 
@@ -23,15 +21,47 @@ Some other ways of using PlayerPrefs are shown below with use cases:
 
 ![High_score](https://user-images.githubusercontent.com/44625252/152966393-a3e0dec6-8254-4b9f-82e0-7e7fbf011631.png)
 
+```
+public void UpdateHighScore(float finalTime)
+{
+  float previousHighScore = float.Maxvalue;
+  
+  if(PlayerPrefs.HasKey(HIGHSCORE_KEY))
+  {
+    previousHighScore = PlayerPrefs.GetFloat(HIGHSCORE_KEY);
+  }
+  if(finalTime < previousHighScore)
+  {
+    PlayerPrefs.SetFloat(HIGHSCORE_KEY, finalTime;
+    PlayerPrefs.Save();
+  }
+}
+```
+
 - Scores of individual players in a multiplayer game
 - Creating multiple saves for a game at certain checkpoints
 
-![Checkpoints_prefs](https://user-images.githubusercontent.com/44625252/152966422-095ca871-b132-4e30-aef9-560a6460d188.png)
+```
+public void OnTriggerEnter2D(Collider2D collision)
+{
+  if(collision.CompareTag("Player"))
+  {
+    PlayerPrefs.SetFloat("x", posX);
+    PlayerPrefs.SetFloat("y", posY);
+    PlayerPrefs.SetFloat("z", posZ);
+  }
+}
+```
 
 - Levelling up stats for the player
 - Timestamps
 
-![Timestamp_pref](https://user-images.githubusercontent.com/44625252/152966465-65a71ee3-1c9c-4653-aab6-2ec62a1ba780.png)
+```
+//Save the current system time as a string in the player prefs class
+PlayerPrefs.SetString("sysString", System.DateTime.now.ToBinary().ToString());
+
+print("Saving this date to prefs: " + System.DateTime.Now);
+```
 
 - Saving Game settings
 - Clearing/removing specific PlayerPref values
