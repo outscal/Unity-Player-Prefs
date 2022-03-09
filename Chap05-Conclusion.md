@@ -23,7 +23,7 @@ You can also click here - [Click Here!](https://academy.outscal.com/welcome/buil
 
 Try to come up with more use cases of applying these playerprefs in game and actually implement them in your own games.
 
-You can also go through the 2D Platformer Course here - [Unity Courses](https://academy.outscal.com/unity-course-content).
+You can continue to the next chapter and start adding sounds to your game - [Unity Sound System](https://academy.outscal.com/unity-sound-system/).
 
 Whether you have something interesting to showcase or just a hi, feel free to join us in Discord where you can also hangout with like-minded people. [Discord](https://discord.com/invite/R4hfXhsWjN).
 
